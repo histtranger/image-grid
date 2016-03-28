@@ -45,11 +45,33 @@ img:nth-child(6) {
 
   img:nth-child(2) {
     display: inline-block;
+    width: 50%;
+    float: left;
   }
 
   img:nth-child(3) {
     float: right;
     display: inline-block;
-    width: 66.6666%;
+    width: 50%;
+  }
+
+  img:nth-child(4) {
+    display: inline-block;
+    width: 50%;
+    float: left;
+  }
+
+  img:nth-child(5) {
+    float: right;
+    display: inline-block;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  img:nth-child(2), img:nth-child(3), img:nth-child(4) {
+    display: inline-block;
+    width: 33.3333%;
   }
 }
